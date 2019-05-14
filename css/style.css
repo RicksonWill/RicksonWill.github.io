@@ -2,6 +2,11 @@
   text-align: center;
   background-color: #1b9df9;
   color: white;
+  display: table-cell;
+  vertical-align: middle;
+  height: 150px;
+  width: 10%;
+  font-family: 'Fira Sans', sans-serif;
 }
 .cards{
   display: flex;
