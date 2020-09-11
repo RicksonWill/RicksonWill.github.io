@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="78" height="83.739" viewBox="0 0 78 83.739">
+  <g id="Grupo_19" data-name="Grupo 19" transform="translate(-994 -1366.395)">
+    <g id="Elipse_12" data-name="Elipse 12" transform="translate(1072 1392) rotate(90)" fill="none" stroke="#61dbfb" stroke-width="3">
+      <ellipse cx="16" cy="39" rx="16" ry="39" stroke="none"/>
+      <ellipse cx="16" cy="39" rx="14.5" ry="37.5" fill="none"/>
+    </g>
+    <circle id="Elipse_13" data-name="Elipse 13" cx="7.5" cy="7.5" r="7.5" transform="translate(1040 1400) rotate(90)" fill="#61dbfb"/>
+    <g id="Elipse_14" data-name="Elipse 14" transform="translate(1038.48 1366.395) rotate(30)" fill="none" stroke="#61dbfb" stroke-width="3">
+      <ellipse cx="16.189" cy="39" rx="16.189" ry="39" stroke="none"/>
+      <ellipse cx="16.189" cy="39" rx="14.689" ry="37.5" fill="none"/>
+    </g>
+    <g id="Elipse_16" data-name="Elipse 16" transform="translate(999.48 1382.584) rotate(-30)" fill="none" stroke="#61dbfb" stroke-width="3">
+      <ellipse cx="16.189" cy="39" rx="16.189" ry="39" stroke="none"/>
+      <ellipse cx="16.189" cy="39" rx="14.689" ry="37.5" fill="none"/>
+    </g>
+  </g>
+</svg>
