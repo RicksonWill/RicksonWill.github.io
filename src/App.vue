@@ -24,32 +24,36 @@
             </h1>
           </div>
           <div class="itens">
-            <div class="iten">
-              <div>
-                <img src="./assets/logoFlutter.svg" alt="logo flutter" />
-                <img src="./assets/icon-react.svg" alt="logo flutter" />
+            <div class="subiten">
+              <div class="iten">
+                <div>
+                  <img src="./assets/logoFlutter.svg" alt="logo flutter" />
+                  <img src="./assets/icon-react.svg" alt="logo flutter" />
+                </div>
+                Mobile Developer
               </div>
-              Mobile Developer
-            </div>
-            <div class="iten">
-              <div>
-                <img src="./assets/icon-html.svg" alt="logo html" />
-                <img src="./assets/icon-css.svg" alt="logo css" />
-                <img src="./assets/icon-js.svg" alt="logo js" />
+              <div class="iten">
+                <div>
+                  <img src="./assets/icon-html.svg" alt="logo html" />
+                  <img src="./assets/icon-css.svg" alt="logo css" />
+                  <img src="./assets/icon-js.svg" alt="logo js" />
+                </div>
+                Web Developer
               </div>
-              Web Developer
             </div>
-            <div class="iten">
-              <img src="./assets/icon-blender.svg" alt="logo blender" />
-              3D Designer
-            </div>
-            <div class="iten">
-              <div>
-                <img src="./assets/icon-ae.svg" alt="logo ae" />
-                <img src="./assets/icon-ps.svg" alt="logo ps" />
-                <img src="./assets/icon-lottie.svg" alt="logo lottie" />
+            <div class="subiten">
+              <div class="iten">
+                <img src="./assets/icon-blender.svg" alt="logo blender" />
+                3D Designer
               </div>
-              Motion Designer
+              <div class="iten">
+                <div>
+                  <img src="./assets/icon-ae.svg" alt="logo ae" />
+                  <img src="./assets/icon-ps.svg" alt="logo ps" />
+                  <img src="./assets/icon-lottie.svg" alt="logo lottie" />
+                </div>
+                Motion Designer
+              </div>
             </div>
           </div>
         </div>
@@ -162,7 +166,28 @@ section {
   display: flex;
   justify-content: space-between;
 }
-
+.subiten {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 15px;
+  flex: 1;
+  /* border: red 1px solid; */
+}
+@media (max-width: 640px) {
+  .subiten {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex: 1;
+  }
+}
+@media (max-width: 440px) {
+  .subiten {
+    display: flex;
+    flex-direction: column;
+  }
+}
 @media (max-width: 1080px) {
   .i {
     justify-content: center;
