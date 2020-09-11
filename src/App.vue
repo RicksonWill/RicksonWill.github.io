@@ -28,14 +28,16 @@
               <div>
                 <img src="./assets/logoFlutter.svg" alt="logo flutter" />
                 <img src="./assets/icon-react.svg" alt="logo flutter" />
-              </div>Mobile Developer
+              </div>
+              Mobile Developer
             </div>
             <div class="iten">
               <div>
                 <img src="./assets/icon-html.svg" alt="logo html" />
                 <img src="./assets/icon-css.svg" alt="logo css" />
                 <img src="./assets/icon-js.svg" alt="logo js" />
-              </div>Web Developer
+              </div>
+              Web Developer
             </div>
             <div class="iten">
               <img src="./assets/icon-blender.svg" alt="logo blender" />
@@ -46,7 +48,8 @@
                 <img src="./assets/icon-ae.svg" alt="logo ae" />
                 <img src="./assets/icon-ps.svg" alt="logo ps" />
                 <img src="./assets/icon-lottie.svg" alt="logo lottie" />
-              </div>Motion Designer
+              </div>
+              Motion Designer
             </div>
           </div>
         </div>
@@ -70,10 +73,13 @@ export default {
   methods: {
     hora() {
       let d = new Date();
-      console.log(d);
       let h = d.getHours();
       var hs =
-        h > 0 && h < 12 ? "Morning" : h > 12 && h < 18 ? "Afternoon" : "Night";
+        h >= 0 && h < 12
+          ? "Morning"
+          : h >= 12 && h < 18
+          ? "Afternoon"
+          : "Night";
       return hs;
     },
   },
