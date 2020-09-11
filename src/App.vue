@@ -26,14 +26,14 @@
           <div class="itens">
             <div class="subiten">
               <div class="iten">
-                <div>
+                <div class="row">
                   <img src="./assets/logoFlutter.svg" alt="logo flutter" />
                   <img src="./assets/icon-react.svg" alt="logo flutter" />
                 </div>
                 Mobile Developer
               </div>
               <div class="iten">
-                <div>
+                <div class="row">
                   <img src="./assets/icon-html.svg" alt="logo html" />
                   <img src="./assets/icon-css.svg" alt="logo css" />
                   <img src="./assets/icon-js.svg" alt="logo js" />
@@ -47,7 +47,7 @@
                 3D Designer
               </div>
               <div class="iten">
-                <div>
+                <div class="row">
                   <img src="./assets/icon-ae.svg" alt="logo ae" />
                   <img src="./assets/icon-ps.svg" alt="logo ps" />
                   <img src="./assets/icon-lottie.svg" alt="logo lottie" />
@@ -101,13 +101,12 @@ body {
   background-color: #121212;
 }
 section {
+  width: 100vw;
   height: 100vh;
   color: #fff;
 }
 .h {
   background-color: #1e1e1e;
-  /* width: 100%; */
-  /* height: 280px; */
   height: 35%;
   position: relative;
 }
@@ -116,17 +115,22 @@ section {
   max-width: 1280px;
   height: 450px;
   position: relative;
-  margin: -105px auto;
+  top: -105px;
+  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* background-color: blue; */
+  /* border: red 1px solid; */
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
 }
 .ir {
-  width: 550px;
+  max-width: 550px;
   height: 400px;
   margin-left: 30px;
-  /* background-color: red; */
 }
 .cw {
   width: 310px;
@@ -141,7 +145,7 @@ section {
   float: left;
 }
 .hir {
-  /* border: blue 1px solid; */
+  width: 100%;
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -150,11 +154,16 @@ section {
 .hir div:nth-child(1) {
   color: #d3d3d3;
   font-size: 2rem;
-  /* margin-left: 10px; */
 }
 .hir div:nth-child(2) {
   color: #ededed;
   font-size: 2.7rem;
+}
+@media (max-width: 593px) {
+  .hir div:nth-child(2) {
+    color: #ededed;
+    font-size: 2.4rem;
+  }
 }
 .hir h1 {
   margin: 0px;
@@ -170,7 +179,7 @@ section {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0 15px;
+  padding: 0 15px 15px 15px;
   flex: 1;
   /* border: red 1px solid; */
 }
